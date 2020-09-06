@@ -70,7 +70,7 @@ def get_flat(address):
     return output
 
 
-def parse_data():
+def scrape_data():
     rows = []
     for i in range(1, 51):
         for flat in get_page(i):
@@ -82,5 +82,5 @@ def parse_data():
 
 
 if __name__ == '__main__':
-    df = parse_data()
+    df = scrape_data()
     df.to_csv('flats.csv')
