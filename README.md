@@ -1,6 +1,6 @@
 # Predicting apartment rental prices
 
-My personal project aimed at predicting apartment rental prices from data scraped from gumtree.pl. 
+My personal project aimed at predicting apartment rental prices from data scraped from gumtree.pl using scikit-learn. 
 
 ## Setup
 
